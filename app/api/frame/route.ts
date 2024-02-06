@@ -19,7 +19,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   if (message?.button === 2) {
     return NextResponse.redirect(
-      'https://www.google.com/search?q=cute+dog+pictures&tbm=isch&source=lnms',
+      'https://basescan.org/tx/0xd7701d54260a0033a7959ad1a78934fb8ed75d8758cbd7e38a6bb13fceb39933',
       { status: 302 },
     );
   }
